@@ -2,6 +2,37 @@ p,h2{
     font-family:'Crimson Text';
     font-size: 18px;
     width: 80%;
-    height: 5pc;
-    margin: 25px auto auto;
+}
+
+h2{
+    margin: 25px  auto;
+}
+
+p{
+/* height: 7pc; */
+display: flexbox;
+justify-content: center;
+/* padding-bottom: 15px; */
+margin: auto;
+margin-bottom: 30px;
+line-height: 1.2pc;
+height: 5.5pc;
+}
+
+option,select{
+    color: lightpink;
+    background-color: gray;
+    font-size: 20px;
+}
+select{
+    border-radius:8px ;
+    margin-bottom: 20px;
+}
+button{
+    /* margin-bottom: 20px;
+    margin-right: 20px; */
+    margin:0px 20px 20px;
+    font-size: 20px;
+    width: 150px;
+    height: 50px;
 }
