@@ -7,18 +7,32 @@
     <link rel="stylesheet" href="css/base.css" />
     <link rel="stylesheet" href="css/layout.css" />
     <link rel="stylesheet" href="css/modules.css" />
-
+    <script id='imageTemplate' type='text/x-tmpl-mustache'>
+      <nav>
+        <h2>{{title}}</h2>
+        <img src="{{image_url}}"></p>
+        <p>{{description}}</p>
+      </nav>
+    </script>
   </head>
   <body>
     <header>
       <h1>The Gallery of Horns</h1>
-      <select>
+      <select class="filter">
         <option value="default">Filter by Keyword</option>
-      </select>
+      </select> </br>
+      <select class="sort">
+        <option class=".option">Title</option>
+        <option class=".option">Horns</option>
+      </select> </br>
+      <button class="page1">PAGE1</button>
+      <button class="page2">PAGE2</button>
     </header>
-    <main></main>
+    <main>
+    </main>
     <footer></footer>
     <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mustache.js/4.0.1/mustache.js"></script>
     <script src="js/app.js"></script>
   </body>
 </html>
